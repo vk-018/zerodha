@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@tailwind base; 
+/* //  ← without this, no Tailwind at all */
+@tailwind components;
+@tailwind utilities;
